@@ -1,0 +1,53 @@
+/* Centralizando todos os intens da tela*/
+body{
+    text-align: center;
+}
+/* Alterando a fonte do Título */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Dando forma para o tabuleiro*/
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid grey;
+    display: inline-block;
+}
+/* Configuração do Player 1 */
+.o{
+    position: relative;
+}
+/* Configuração do Emoji Player 1 */
+.o:after{
+    position: absolute;
+    content: "\2B55";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+
+}
+/* Configuração do Player 2 */
+.x{
+    position: relative;
+}
+/* Configuração do Emoji Player 2 */
+.x:after{
+    position: absolute;
+    content: "\274C";
+    font-size: 50px;
+    line-height: 100px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
+#restart{
+    background-color: black;
+    color: white;
+    border: solid 2px grey;
+    padding: 15px;    
+}
